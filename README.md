@@ -67,7 +67,7 @@ Este sitio web es un recurso para aquellos que están empezando en el mundo del 
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/todo-sobre-html.git
+   git clone https://github.com/Epicteto04/todo-sobre-html.git
 2. Abre el archivo index.html en tu navegador para ver la página principal.
     Navega a través de las diferentes secciones utilizando el menú.
 
