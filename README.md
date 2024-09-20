@@ -29,7 +29,7 @@ Este sitio web es un recurso para aquellos que están empezando en el mundo del 
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/todo-sobre-html.git
+   git clone https://github.com/Epicteto04/todo-sobre-html.git
 Claro, aquí tienes todo el contenido en un solo bloque de código para que puedas copiar y pegar directamente:
 
 markdown
