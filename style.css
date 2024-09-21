@@ -137,3 +137,19 @@ footer p {
   margin: 10px 0;
   color: #333;
 }
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+.bounce {
+  animation: bounce 1s ease 2;
+}
