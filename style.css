@@ -159,3 +159,11 @@ img {
   max-width: 600px; /* Puedes limitar el tamaño máximo */
   height: auto; /* Mantiene la proporción de la imagen */
 }
+
+footer img {
+  width: auto; /* O especifica un tamaño fijo si es necesario */
+  max-width: 500px; /* Ajusta el tamaño máximo como prefieras */
+  height: auto;
+  display: block; /* Asegura que el espacio alrededor no afecte el tamaño */
+  margin: 0 auto; /* Centra la imagen si es necesario */
+}
