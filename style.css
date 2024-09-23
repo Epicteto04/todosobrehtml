@@ -155,7 +155,7 @@ footer p {
 }
 
 img {
-  width: 70%; /* Esto ajusta la imagen al 100% del ancho de su contenedor */
+  width: 100%; /* Esto ajusta la imagen al 100% del ancho de su contenedor */
   max-width: 600px; /* Puedes limitar el tamaño máximo */
   height: auto; /* Mantiene la proporción de la imagen */
 }
