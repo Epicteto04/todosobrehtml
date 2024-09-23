@@ -153,3 +153,9 @@ footer p {
 .bounce {
   animation: bounce 1s ease 2;
 }
+
+img {
+  width: 70%; /* Esto ajusta la imagen al 100% del ancho de su contenedor */
+  max-width: 600px; /* Puedes limitar el tamaño máximo */
+  height: auto; /* Mantiene la proporción de la imagen */
+}

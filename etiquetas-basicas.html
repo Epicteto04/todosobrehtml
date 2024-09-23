@@ -8,16 +8,15 @@
         <meta name="keywords" content="HTML, tutorial, principiantes, etiquetas HTML, desarrollo web, autodidacta">
         <meta name="robots" content="index, follow">
         <meta property="og:title" content="Todo sobre HTML">
-    <meta property="og:description" content="Guía completa sobre HTML para principiantes. Aprende a construir tu primera web con HTML.">
-    <meta property="og:image" content="URL_de_tu_imagen.jpg">
-    <meta property="og:url" content="URL_de_tu_página">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Todo sobre HTML">
-    <meta name="twitter:description" content="Guía completa sobre HTML para principiantes. Aprende a construir tu primera web con HTML.">
-    <meta name="twitter:image" content="URL_de_tu_imagen.jpg">
-    
-    
+        <meta property="og:description" content="Guía completa sobre HTML para principiantes. Aprende a construir tu primera web con HTML.">
+        <meta property="og:image" content="URL_de_tu_imagen.jpg">
+        <meta property="og:url" content="URL_de_tu_página">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Todo sobre HTML">
+        <meta name="twitter:description" content="Guía completa sobre HTML para principiantes. Aprende a construir tu primera web con HTML.">
+        <meta name="twitter:image" content="URL_de_tu_imagen.jpg">
+        
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="icono.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,8 +30,6 @@
         
         <header>
             <h1>&lt;Todo sobre HTML&gt;</h1>
-    
-    
             <nav>
                 <ul class="nav-buttons">
                     <li><a href="index.html">Inicio</a></li>
@@ -42,39 +39,69 @@
                 </ul>
             </nav>
         </header>
-    <h3>Etiquetas básicas HTML</h3>
-<ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Glossary/Doctype" target="_blank">!DOCTYPE html></a>: La declaración de tipo de documento HTML, también conocida como DOCTYPE, es la primera línea de código requerida en todo documento HTML o XHTML. La declaración DOCTYPE es una instrucción al navegador web sobre la versión de HTML en la cual está escrita la página. Esto asegura que la página web sea analizada de la misma manera en diferentes navegadores web. En nuestro caso vamos a utilizar el DOCTYPE que se utiliza para HTML5 y que va a ser compatible con todos los navegadores web. Es importante saber que sólamente tiene etiqueta de apertura</li>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/html" target="_blank">&lt;html&gt;</a>: Es la etiqueta en la que anidaremos todo nuestro documento. El elemento HTML <html> (o elemento HTML raiz) representa la raiz de un documento HTML. El resto de elementos descienden de este elemento.
 
-        Dado que el elemento <html> es el primero en un documento, aparte de los comentarios, se llama el elemento raíz. A pesar de que esta etiqueta puede ser implicita, o no requerida en HTML, sí es requerida para abrir y cerrar en XHTML.</li>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/head" target="_blank">&lt;head&gt;</a>: La etiqueta <em>head</em> se utiliza para incluir información sobre la página que no se muestra directamente en el contenido visible. Dentro de la etiqueta &lt;head&gt; puedes colocar elementos como el título de la página, enlaces a archivos de estilo (CSS), scripts (JavaScript) y metadatos que ayudan a definir cómo se presenta y se comporta la página en el navegador.</li>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/body" target="_blank">&lt;body&gt;</a>: La etiqueta <em>body</em> contiene todo el contenido visible de una página web, incluyendo títulos, subtítulos, párrafos, listas, tablas y otros elementos que los usuarios verán en el navegador. Todo el contenido que aparece en la página se coloca dentro de esta etiqueta.</li>    
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">&lt;h1, h2, h3...h6&gt;</a>: Las etiquetas de título <em>h1, h2, h3, hasta h6</em>, se utilizan para definir títulos y subtítulos en una página web. Estas etiquetas organizan el contenido en una jerarquía, donde h1 representa el título más importante y h6 el de menor relevancia. Utilizar correctamente estas etiquetas ayuda a estructurar el contenido de manera clara y accesible, y también mejora la optimización en motores de búsqueda (SEO).</li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">&lt;p&gt;</a>: La etiqueta &lt;p&gt; se utiliza para definir un párrafo en HTML. Los párrafos se muestran en bloques de texto separados, con márgenes automáticos en la parte superior e inferior para una adecuada separación entre ellos. Esta etiqueta ayuda a estructurar el contenido de manera legible y organizada.  </li>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a" target="_blank">&lt;a&gt;</a>: La etiqueta &lt;a&gt; se utiliza para crear enlaces en HTML. Se conoce como el "elemento de anclaje". Puedes usar el atributo href para especificar la URL del destino del enlace. Además, puedes usar el atributo target para definir cómo se debe abrir el enlace (por ejemplo, en una nueva pestaña). Esta etiqueta también puede ser utilizada para enlaces a otras secciones de la misma página utilizando el atributo id y el signo de número (#).
+        <h3>Etiquetas básicas HTML</h3>
+        <ul>
+            <li><a href="https://developer.mozilla.org/es/docs/Glossary/Doctype" target="_blank">!DOCTYPE html</a>: La declaración de tipo de documento HTML, también conocida como DOCTYPE, es la primera línea de código requerida en todo documento HTML o XHTML. Esto asegura que la página web sea analizada de la misma manera en diferentes navegadores. Utilizaremos el DOCTYPE para HTML5, que es compatible con todos los navegadores.</li>
 
-        <ul><h4>Atributos comunes:</h4>
-           <li> href: Define la URL del destino del enlace.</li>
-           <li> target: Especifica dónde abrir el enlace (por ejemplo, _blank para abrir en una nueva pestaña).</li>
-           <li> title: Proporciona información adicional que aparece como un tooltip cuando el usuario pasa el cursor sobre el enlace.</li></ul> </li>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/header" target="_blank">&lt;header&gt;</a>: El elemento de HTML Header (&lt;header&gt;) representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes.</li>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/nav" target="_blank">&lt;nav&gt;: El elemento de sección de navegación</a>: El elemento HTML &lt;nav&gt; representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos. Ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.</li>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/section" target="_blank">&lt;section&gt;: El elemento de sección genérica:</a>El elemento de HTML &lt;section&gt; representa una sección genérica independiente de un documento, que no tiene un elemento semántico más específico para representarla. Las secciones siempre deben tener un título, con muy pocas excepciones.</li>
-</ul>
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/html" target="_blank">&lt;html&gt;</a>: Es la etiqueta en la que anidaremos todo nuestro documento. Representa la raíz de un documento HTML. Aunque puede ser implícita en HTML, es requerida para abrir y cerrar en XHTML.</li>
 
-<footer>
-    <p>
-        <i class="fas fa-envelope"></i> 
-        Contacto profesional o dudas: <a href="mailto:javimartosdev@gmail.com">javimartosdev@gmail.com</a>
-    </p>
-    <p>
-        <i class="fab fa-x"></i> 
-        Sígueme en X: <a href="https://x.com/martosjdev" target="_blank">@martosjdev</a>
-    </p>
-    <p class="bounce"><em>Nota:</em> Esta web está en constante construcción, agradecemos tu paciencia.</p>
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/head" target="_blank">&lt;head&gt;</a>: Se utiliza para incluir información sobre la página que no se muestra directamente. Dentro de esta etiqueta puedes colocar el título de la página, enlaces a archivos de estilo (CSS) y scripts (JavaScript).</li>
 
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/body" target="_blank">&lt;body&gt;</a>: Contiene todo el contenido visible de la página web, incluyendo títulos, párrafos, listas y otros elementos.</li>
 
-</footer>
-</body>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">&lt;h1, h2, h3...h6&gt;</a>: Estas etiquetas definen títulos y subtítulos en una página web, organizando el contenido en una jerarquía. Utilizarlas correctamente ayuda a estructurar el contenido y mejora la optimización en motores de búsqueda (SEO).</li>
+
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">&lt;p&gt;</a>: Se utiliza para definir un párrafo en HTML. Los párrafos se muestran en bloques de texto separados, lo que ayuda a estructurar el contenido de manera legible.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a" target="_blank">&lt;a&gt;</a>: Se utiliza para crear enlaces en HTML. Puedes usar el atributo <code>href</code> para especificar la URL del destino. También puedes usar el atributo <code>target</code> para definir cómo abrir el enlace.
+
+                <ul><h4>Atributos comunes:</h4>
+                    <li><code>href</code>: Define la URL del destino del enlace.</li>
+                    <li><code>target</code>: Especifica dónde abrir el enlace (por ejemplo, <code>_blank</code> para abrir en una nueva pestaña).</li>
+                    <li><code>title</code>: Proporciona información adicional que aparece como un tooltip cuando el usuario pasa el cursor sobre el enlace.</li>
+                </ul>
+            </li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/header" target="_blank">&lt;header&gt;</a>: Representa un grupo de ayudas introductorias o de navegación. Puede contener elementos de encabezado, un logo y un formulario de búsqueda.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/nav" target="_blank">&lt;nav&gt;</a>: Representa una sección de navegación, proporcionando enlaces de navegación dentro del documento o a otros documentos.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/section" target="_blank">&lt;section&gt;</a>: Representa una sección genérica independiente de un documento. Las secciones siempre deben tener un título.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/img" target="_blank">&lt;img&gt;</a>: Se utiliza para insertar imágenes en la página. Ejemplo: <code>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</code></li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ul" target="_blank">&lt;ul&gt;</a>: Se utiliza para crear listas desordenadas. Ejemplo: <code>&lt;ul&gt;&lt;li&gt;Elemento 1&lt;/li&gt;&lt;/ul&gt;</code></li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ol" target="_blank">&lt;ol&gt;</a>: Se utiliza para crear listas ordenadas. Ejemplo: <code>&lt;ol&gt;&lt;li&gt;Elemento 1&lt;/li&gt;&lt;/ol&gt;</code></li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/table" target="_blank">&lt;table&gt;</a>: Se utiliza para crear tablas en HTML. Ejemplo: <code>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Celda 1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/form" target="_blank">&lt;form&gt;</a>: Se utiliza para crear formularios interactivos. Ejemplo: <code>&lt;form action="tu_accion"&gt;&lt;/form&gt;</code></li>
+        </ul>
+
+        <h3>Fuentes adicionales sobre etiquetas HTML</h3>
+        <p>Para profundizar en el uso de etiquetas HTML, te recomiendo visitar los siguientes recursos:</p>
+        <ul>
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element" target="_blank">Documentación de Elementos HTML en Mozilla Developer Network (MDN)</a></li>
+            <li><a href="https://www.w3schools.com/tags/default.asp" target="_blank">W3Schools: Listado de etiquetas HTML</a></li>
+            
+        </ul>
+        <p>Visitar estos sitios te proporcionará información actualizada y detallada sobre cada etiqueta y su uso en el desarrollo web.</p>
+
+        <footer>
+            <img src="logojavi.jpg" alt="Logo de Todo sobre HTML" width="150" height="auto">
+            <p>
+                <i class="fas fa-envelope"></i> 
+                Contacto profesional o dudas: <a href="mailto:javimartosdev@gmail.com">javimartosdev@gmail.com</a>
+            </p>
+            <p>
+                <i class="fab fa-x"></i> 
+                Sígueme en X: <a href="https://x.com/martosjdev" target="_blank">@martosjdev</a>
+            </p>
+            <p class="bounce"><em>Nota:</em> Esta web está en constante construcción, agradecemos tu paciencia.</p>
+
+            
+        </footer>
+    </body>
 </html>
