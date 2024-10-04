@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Guía sobre etiquetas básicas y avanzadas de HTML para principiantes. Aprende a construir tu primera web de forma autodidacta.">
+        <meta name="keywords" content="HTML, tutorial, principiantes, etiquetas HTML, desarrollo web, autodidacta">
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="Todo sobre HTML">
+        <meta property="og:description" content="Guía completa sobre HTML para principiantes. Aprende a construir tu primera web con HTML.">
+        <meta property="og:image" content="URL_de_tu_imagen.jpg">
+        <meta property="og:url" content="URL_de_tu_página">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Todo sobre HTML">
+        <meta name="twitter:description" content="Guía completa sobre HTML para principiantes. Aprende a construir tu primera web con HTML.">
+        <meta name="twitter:image" content="URL_de_tu_imagen.jpg">
+        
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="icono.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"> 
+        <title>Todo sobre HTML</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <h1>&lt;Todo sobre HTML&gt;</h1>
+            <nav>
+                <ul class="nav-buttons">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="etiquetas-basicas.html">Etiquetas Básicas</a></li>
+                    <li><a href="guia-principiantes.html">Guía para principiantes</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h3>Etiquetas básicas HTML</h3>
+        <ul>
+            <li><a href="https://developer.mozilla.org/es/docs/Glossary/Doctype" target="_blank">!DOCTYPE html</a>: La declaración de tipo de documento HTML, también conocida como DOCTYPE, es la primera línea de código requerida en todo documento HTML o XHTML. Esto asegura que la página web sea analizada de la misma manera en diferentes navegadores. Utilizaremos el DOCTYPE para HTML5, que es compatible con todos los navegadores.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/html" target="_blank">&lt;html&gt;</a>: Es la etiqueta en la que anidaremos todo nuestro documento. Representa la raíz de un documento HTML. Aunque puede ser implícita en HTML, es requerida para abrir y cerrar en XHTML.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/head" target="_blank">&lt;head&gt;</a>: Se utiliza para incluir información sobre la página que no se muestra directamente. Dentro de esta etiqueta puedes colocar el título de la página, enlaces a archivos de estilo (CSS) y scripts (JavaScript).</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/body" target="_blank">&lt;body&gt;</a>: Contiene todo el contenido visible de la página web, incluyendo títulos, párrafos, listas y otros elementos.</li>
+
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">&lt;h1, h2, h3...h6&gt;</a>: Estas etiquetas definen títulos y subtítulos en una página web, organizando el contenido en una jerarquía. Utilizarlas correctamente ayuda a estructurar el contenido y mejora la optimización en motores de búsqueda (SEO).</li>
+
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">&lt;p&gt;</a>: Se utiliza para definir un párrafo en HTML. Los párrafos se muestran en bloques de texto separados, lo que ayuda a estructurar el contenido de manera legible.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a" target="_blank">&lt;a&gt;</a>: Se utiliza para crear enlaces en HTML. Puedes usar el atributo <code>href</code> para especificar la URL del destino. También puedes usar el atributo <code>target</code> para definir cómo abrir el enlace.
+
+                <ul><h4>Atributos comunes:</h4>
+                    <li><code>href</code>: Define la URL del destino del enlace.</li>
+                    <li><code>target</code>: Especifica dónde abrir el enlace (por ejemplo, <code>_blank</code> para abrir en una nueva pestaña).</li>
+                    <li><code>title</code>: Proporciona información adicional que aparece como un tooltip cuando el usuario pasa el cursor sobre el enlace.</li>
+                </ul>
+            </li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/header" target="_blank">&lt;header&gt;</a>: Representa un grupo de ayudas introductorias o de navegación. Puede contener elementos de encabezado, un logo y un formulario de búsqueda.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/nav" target="_blank">&lt;nav&gt;</a>: Representa una sección de navegación, proporcionando enlaces de navegación dentro del documento o a otros documentos.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/section" target="_blank">&lt;section&gt;</a>: Representa una sección genérica independiente de un documento. Las secciones siempre deben tener un título.</li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/img" target="_blank">&lt;img&gt;</a>: Se utiliza para insertar imágenes en la página. Ejemplo: <code>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</code></li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ul" target="_blank">&lt;ul&gt;</a>: Se utiliza para crear listas desordenadas. Ejemplo: <code>&lt;ul&gt;&lt;li&gt;Elemento 1&lt;/li&gt;&lt;/ul&gt;</code></li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ol" target="_blank">&lt;ol&gt;</a>: Se utiliza para crear listas ordenadas. Ejemplo: <code>&lt;ol&gt;&lt;li&gt;Elemento 1&lt;/li&gt;&lt;/ol&gt;</code></li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/table" target="_blank">&lt;table&gt;</a>: Se utiliza para crear tablas en HTML. Ejemplo: <code>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Celda 1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></li>
+
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/form" target="_blank">&lt;form&gt;</a>: Se utiliza para crear formularios interactivos. Ejemplo: <code>&lt;form action="tu_accion"&gt;&lt;/form&gt;</code></li>
+        </ul>
+
+        <h3>Fuentes adicionales sobre etiquetas HTML</h3>
+        <p>Para profundizar en el uso de etiquetas HTML, te recomiendo visitar los siguientes recursos:</p>
+        <ul>
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element" target="_blank">Documentación de Elementos HTML en Mozilla Developer Network (MDN)</a></li>
+            <li><a href="https://www.w3schools.com/tags/default.asp" target="_blank">W3Schools: Listado de etiquetas HTML</a></li>
+            
+        </ul>
+        <p>Visitar estos sitios te proporcionará información actualizada y detallada sobre cada etiqueta y su uso en el desarrollo web.</p>
+
+        <footer>
+            <img src="logojavi.jpg" alt="Logo de Todo sobre HTML" width="150" height="auto">
+            <p>
+                <i class="fas fa-envelope"></i> 
+                Contacto profesional o dudas: <a href="mailto:javimartosdev@gmail.com">javimartosdev@gmail.com</a>
+            </p>
+            <p>
+                <i class="fab fa-x"></i> 
+                Sígueme en X: <a href="https://x.com/martosjdev" target="_blank">@martosjdev</a>
+            </p>
+            <p class="bounce"><em>Nota:</em> Esta web está en constante construcción, agradecemos tu paciencia.</p>
+
+            
+        </footer>
+    </body>
+</html>
